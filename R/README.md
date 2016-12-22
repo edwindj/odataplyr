@@ -1,3 +1,5 @@
+** Not functional ** __work in progress__
+
 # Dplyr provider for OData
 
 The OData protocol (ref) is a Web API to data tables or EntitySets.
