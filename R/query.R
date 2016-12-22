@@ -47,9 +47,9 @@ to_query_s <- function(e){
   paste(lhs(e), OPERATORS[op_s(e)], rhs(e))
 }
 
-A <- 3
-e <- add_filter(NULL, x > A)
-lhs(e$expr)
-rhs(e$expr)
-
-to_query_s(e$expr)
+# A <- 3
+# e <- add_filter(NULL, x > A)
+# lhs(e$expr)
+# rhs(e$expr)
+#
+# to_query_s(e$expr)
