@@ -27,8 +27,8 @@ op_s <- function(e){
   as.character(op(e))
 }
 
-query <- function(){
-  qry <- list()
+query <- function(format = "json"){
+  list(format = "json")
 }
 
 add_filter  <- function(x, expr){
@@ -40,7 +40,11 @@ add_filter  <- function(x, expr){
 
 OPERATORS <- c( "<" = "lt"
              , ">"  = "gt"
+             , ">=" = "ge"
+             , "<=" = "le"
              , "==" = "eq"
+             , "!=" = "ne"
+             , "!"  = "not"
              )
 
 to_query_s <- function(e){

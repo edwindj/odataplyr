@@ -12,4 +12,7 @@ src_odata(url)
 \description{
 Connect to an OData data source
 }
+\examples{
+src_odata("http://services.odata.org/TripPinRESTierService")
+}
 
